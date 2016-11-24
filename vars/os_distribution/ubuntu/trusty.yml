@@ -1,0 +1,6 @@
+---
+
+# Specific Trusty vars
+
+_alignak_os_base_upstart_path: '/etc/init'
+_alignak_is_upstart_management: True

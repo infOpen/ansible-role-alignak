@@ -1,0 +1,15 @@
+---
+
+# Debian OS family specific vars
+
+# Main user variables
+_alignak_user: 'mongodb-mms'
+_alignak_group: 'mongodb-mms'
+
+# Path variables
+_alignak_os_base_config_path: '/etc'
+_alignak_os_base_data_path: '/var/lib'
+_alignak_os_base_log_path: '/var/log'
+_alignak_os_base_logrotate_path: '/etc/logrotate.d'
+_alignak_os_base_run_path: '/var/run'
+_alignak_os_base_tmp_path: '/tmp'

@@ -1,0 +1,6 @@
+---
+
+# Specific Xenial vars
+
+_alignak_os_base_systemd_services_path: '/lib/systemd/system'
+_alignak_is_systemd_management: True
