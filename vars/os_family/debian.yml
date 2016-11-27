@@ -3,8 +3,8 @@
 # Debian OS family specific vars
 
 # Main user variables
-_alignak_user: 'mongodb-mms'
-_alignak_group: 'mongodb-mms'
+_alignak_user: 'alignak'
+_alignak_group: 'alignak'
 
 # Path variables
 _alignak_os_base_config_path: '/etc'
