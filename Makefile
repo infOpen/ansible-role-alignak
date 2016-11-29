@@ -60,5 +60,5 @@ test-vagrant:
 	vagrant up
 	vagrant provision
 	vagrant ssh-config > .vagrant/ssh-config
-	testinfra --hosts=alignak_trusty --ssh-config=.vagrant/ssh-config --noconftest --sudo
-	testinfra --hosts=alignak_xenial --ssh-config=.vagrant/ssh-config --noconftest --sudo
+	testinfra --hosts=alignak-trusty --ssh-config=.vagrant/ssh-config --noconftest --sudo
+	testinfra --hosts=alignak-xenial --ssh-config=.vagrant/ssh-config --noconftest --sudo

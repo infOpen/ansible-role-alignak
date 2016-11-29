@@ -1,0 +1,20 @@
+---
+
+ansible_playbooks:
+  - 'testing_deployment.yml'
+
+vagrant_provider: 'virtualbox'
+
+vagrant_servers:
+  - name: 'alignak-trusty'
+    box: 'ubuntu/trusty64'
+    cpus: 1
+    family: 'debian'
+    forwarded_port: []
+    memory: 512
+  - name: 'alignak-xenial'
+    box: 'ubuntu/xenial64'
+    cpus: 1
+    family: 'debian'
+    forwarded_port: []
+    memory: 512
