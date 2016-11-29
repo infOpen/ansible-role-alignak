@@ -2,3 +2,21 @@
 
 # Defaults vars file for alignak role
 
+# Repository management
+#------------------------------------------------------------------------------
+
+# General
+alignak_repository_file_mode: '0644'
+alignak_repository_file_name: "{{ _alignak_repository_file_name | default('') }}"
+alignak_repository_key: "{{ _alignak_repository_key | default('') }}"
+alignak_repository_keyserver: "{{ _alignak_repository_keyserver | default('') }}"
+alignak_repository_url: "{{ _alignak_repository_url }}"
+
+# Debian family specific
+alignak_apt_cache_valid_time: "{{ _alignak_apt_cache_valid_time }}"
+alignak_apt_update_cache: "{{ _alignak_apt_update_cache }}"
+
+
+# Packages management
+#------------------------------------------------------------------------------
+alignak_packages: "{{ _alignak_packages }}"

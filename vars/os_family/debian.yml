@@ -13,3 +13,15 @@ _alignak_os_base_log_path: '/var/log'
 _alignak_os_base_logrotate_path: '/etc/logrotate.d'
 _alignak_os_base_run_path: '/var/run'
 _alignak_os_base_tmp_path: '/tmp'
+
+# Repository management
+_alignak_apt_cache_valid_time: 3600
+_alignak_apt_update_cache: True
+_alignak_repository_file_name: 'alignak.list'
+_alignak_repository_key: '4DD0484BCDF8E9C4'
+_alignak_repository_keyserver: 'keyserver.ubuntu.com'
+_alignak_repository_url: "deb http://alignak-monitoring.github.io/repos/deb {{ ansible_distribution_release }} main"
+
+# Packages management
+_alignak_packages:
+  - name: 'alignak-all'
