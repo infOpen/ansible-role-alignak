@@ -12,9 +12,3 @@ vagrant_servers:
     family: 'debian'
     forwarded_port: []
     memory: 512
-  - name: 'alignak-xenial'
-    box: 'ubuntu/xenial64'
-    cpus: 1
-    family: 'debian'
-    forwarded_port: []
-    memory: 512
